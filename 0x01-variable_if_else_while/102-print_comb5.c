@@ -6,44 +6,42 @@
  */
 int main(void)
 {
-	int i, e, a, b, c, d;
+int i, e, a, b, c, d;
 
-	i = e = a = b = c = d = 48;
-	while (b < 58)
+i = e = a = b = c = d = 48;
+while (b < 58)
+{
+	a = 48;
+	while (a < 58)
 	{
-		a = 48;
-		while (a < 58)
+		e = 48;
+		while (e < 58)
 		{
-			e = 48;
-			while (e < 58)
+			i = 58;
+			while (i < 58)
 			{
-				i = 58;
-				while (i < 58)
+				c = (b * 10) + a;
+				d = (e * 10) + i;
+				if (c < d)
 				{
-					c = (b * 10) + a;
-					d = (e * 10) + i;
-					if (c < d)
-					{
-						putchar(b);
-						putchar(a);
-						putchar(' ');
-						putchar(e);
-						putchar(i);
-						if (b == 57 && a == 56 && e == 57 && i == 57)
-						{
-							break;
-						}
-						putchar(',');
-						putchar(' ');
-					}
-					i++;
+					putchar(b);
+					putchar(a);
+					putchar(' ');
+					putchar(e);
+					putchar(i);
+					if (b == 57 && a == 56 && e == 57 && i == 57)
+						break;
+					putchar(',');
+					putchar(' ');
 				}
-				e++;
-			}
-			a++;
+				i++;
 		}
-		b++;
+			e++;
+		}
+		a++;
 	}
-	putchar('\n');
-	return (0);
+	b++;
+}
+putchar('\n');
+return (0);
 }
