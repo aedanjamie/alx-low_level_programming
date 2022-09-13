@@ -1,8 +1,11 @@
 #include "main.h"
 /**
- * int _islower(intc) - Checks the output for a lowercase character.
+ * _islower(intc) - Checks the output for a lowercase 
+ * character and returns 1. Else, returns 0
  *
- *Return: Always 0 (Success)
+ * @c: The character is in ASCII code
+ *
+ * Return: 1 for lowercase character, 0 for rest.
  */
 int _islower(int c)
 {
