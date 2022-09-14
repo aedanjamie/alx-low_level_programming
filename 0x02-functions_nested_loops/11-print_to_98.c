@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * orint_to_98 - Prints all natrual numbers
+ * print_to_98 - Prints all natrual numbers
  * from n to 98
  *
  * @n: input number
