@@ -3,6 +3,7 @@
 /**
  * is_prime - detects if an input number is a prime number
  * @n: input number
+ * @c: iterator
  * Return: 1 if prime number, 0 if other
  */
 int is_prime(unsigned int n, unsigned int c)
@@ -21,7 +22,7 @@ int is_prime(unsigned int n, unsigned int c)
  * @n: input
  * Return: 1 if prime number , 0 if other
  */
-int _is_prime_number(int n)
+int is_prime_number(int n)
 {
 	if (n == 0)
 		return (0);
