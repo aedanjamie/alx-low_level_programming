@@ -1,7 +1,7 @@
 !<arch>
-main.h/         0           0     0     644     703       `
-#ifndef _HOLBERTON_H_
-#define _HOLBERTON_H_
+main.h/         0           0     0     644     693       `
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
 int _putchar(char c);
 int _islower(int c);
