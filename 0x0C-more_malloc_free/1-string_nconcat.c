@@ -1,14 +1,14 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * string_noncat - concatenates two strings
+ * string_nconcat - concatenates two strings
  * @s1: first string
  * @s2: second string
  * @n: amount of bytes
  * Return: pointer to the allocated memory
  * if malloc fails, status value is equal to 98
  */
-char *string_noncat(char *s1, char *s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *sout;
 	unsigned int ls1, ls2, lsout, i;
