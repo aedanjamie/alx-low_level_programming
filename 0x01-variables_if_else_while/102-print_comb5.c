@@ -8,7 +8,7 @@ int main(void)
 {
 int i, e, a, b, c, d;
 
-i = e = a = b = c = d = 48;
+i = e = a = b = 48;
 while (b < 58)
 {
 	a = 48;
