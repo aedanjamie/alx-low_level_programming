@@ -18,7 +18,7 @@ while (b < 58)
 		e = 48;
 		while (e < 58)
 		{
-			i = 58;
+			i = 48;
 			while (i < 58)
 			{
 				c = (b * 10) + a;
