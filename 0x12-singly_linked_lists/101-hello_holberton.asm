@@ -9,7 +9,7 @@ main:
 	mov esi, msg
 	mov edi, fmt
 	mov eax, 0
-	call prointf
+	call printf
 
 	mov eax, 0
 	ret
